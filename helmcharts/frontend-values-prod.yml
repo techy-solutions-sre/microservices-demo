@@ -1,11 +1,11 @@
 # Default values for frontend.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-#  
-replicaCount: 4
+
+replicaCount: '${ parameters.namespace }'
 
 image:
-  repository: gcr.io/google-samples/microservices-demo/frontend:v0.1.4
+  repository: '${ parameters.namespace }'
   tag: latest
   pullPolicy: IfNotPresent
 
