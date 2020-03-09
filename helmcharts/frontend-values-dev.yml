@@ -1,6 +1,7 @@
 # Default values for frontend.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates  ###
+# NEW CHANGE
 
 replicaCount: '${ #toInt(parameters.replicaCount) }'
 
