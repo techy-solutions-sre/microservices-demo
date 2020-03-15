@@ -1,5 +1,6 @@
 # Hipster Shop: Cloud-Native Microservices Demo Application
 # Test ==== ***** =====
+new
 
 This project contains a 10-tier microservices application. The application is a
 web-based e-commerce app called **“Hipster Shop”** where users can browse items,
